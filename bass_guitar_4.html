@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>★ Music-shop ★ Бас-гитары</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header-inner">
+				<div class="header-logo">
+					<img src="img/logo.png">
+					<a href="index.html">MUSIC-SHOP.KZ</a>
+				</div>
+				<div class="header-nav" id="nav">
+					<span class="header-nav-close" onclick="showMenu()">x</span>
+					<ul>
+						<li>
+							<div class="guitar_dropdown_btn">
+								<a href="guitars.html">Гитары</a>
+							<div class="guitar_dropdown">
+								<a href="acoustic_guitar.html">Акустические</a>
+								<a href="electric_guitar.html">Электрогитары</a>
+								<a href="bass_guitar.html">Бас-гитары</a>
+							</div>
+							</div>
+						</li>
+						<li><a href="drums.html">Барабаны</a></li>
+						<li><a href="combics.html">Комбики</a></li>
+						<li><a href="pults.html">Пульты</a></li>
+						<li><a href="accessories.html">Аксессуары</a></li>
+					</ul>
+				</div>
+				<div class="contacts">
+					<p>☎ 8 - 777 - 389 - 53 - 10</p>
+				</div>
+				<div class="header-menu" onclick="showMenu('show')">☰</div>
+				
+			</div>
+		</div>	
+	</header>
+
+	<div class="head_and_ref">
+		<a href="bass_guitar_3.html"> <<< Previous</a>
+		<h2 class="heading">Бас-гитара Tanglewood Rebel REB-4-PW</h2>
+		<a href="bass_guitar_5.html">Next >>> </a>
+	</div>
+	
+	<section class="section">
+		<div class="container">
+			<div class="slider-block">
+				<div class="slider">
+					<img src="" id="img">
+					<p id="galery">img/bass/4/</p>
+					<div class="buttons">
+						<button onclick="prev()"> < </button>
+						<button onclick="next()"> > </button>
+					</div>
+				</div>
+				<div class="img-preview">
+					<div class="imgprev"><img src="img/bass/4/1.jpg" onclick="addimg1()"></div>
+					<div class="imgprev"><img src="img/bass/4/2.jpg" onclick="addimg2()"></div>
+					<div class="imgprev"><img src="img/bass/4/3.jpg" onclick="addimg3()"></div>
+				</div>
+				<div class="description">
+					<div class="prices">
+					<p class="price">Цена: </p>
+					<p class="old-price">56000 ₸</p>
+					<p class="new-price">47000 ₸</p>
+					<p class="economy"></p>
+					<p>Акустическая гитара Flight D-130 NA, в первую очередь, рассчитана на начинающих музыкантов, но способна удивить своим качеством и более опытных гитаристов. <br><br>Верхняя дека традиционно сделана из ели, задняя дека и обечайка- из агатиса - недорогой, но отлично звучащей древесины, гриф сделан из красного дерева. В качестве материала для накладки грифа выступает кабукалли - это отличная замена палисандру, основным отличием которой является устойчивость к влаге.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="comments-section">
+		<h5 class="price">Оставьте ваш комментарий:</h5>
+		<div class="note-adding">
+			<form action="" onsubmit="addNote(event)">
+				<textarea id="form-text" cols="250" rows="10">
+					
+				</textarea>
+				<input type="submit">
+			</form>
+		</div>
+		<div class="notes-area" id="notes-area">
+
+		</div>
+	</section>
+
+	<script type="text/javascript" src="js/slider.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/economy.js"></script>
+	<script type="text/javascript" src="js/comments.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.prices{
+	display: flex;
+	flex-direction: column;
+}
+.new-price{
+	font-size: 22px;
+	font-weight: bold;
+}
+.old-price{
+	text-decoration: line-through;
+	color: #ccc;
+}
+.economy{
+	color: #ccc;
+	font-size: 16px;
+
+}
+.block-item h2{
+	color: #6a7282;
+}
